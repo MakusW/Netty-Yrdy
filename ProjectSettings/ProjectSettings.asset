@@ -11,8 +11,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: New Unity Project 7
+  companyName: thsth
+  productName: net
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -46,7 +46,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 1
+  m_ActiveColorSpace: 0
   m_MTRendering: 1
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
@@ -123,7 +123,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0
+  bundleVersion: 1.01
   preloadedAssets: []
   metroInputSource: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -147,17 +147,18 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.sdf.nettesterrr
   buildNumber: {}
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 16
+  AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
-  ForceInternetPermission: 0
+  ForceInternetPermission: 1
   ForceSDCardPermission: 0
   CreateWallpaper: 0
   APKExpansionFiles: 0
@@ -245,6 +246,9 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
+  - m_BuildTarget: Android
+    m_Enabled: 1
+    m_Devices: []
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -517,7 +521,23 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
   webGLCompressionFormat: 1
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    4: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    7: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    13: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    14: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    17: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    18: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    19: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    20: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    21: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    22: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    23: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    24: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    25: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    26: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
+    27: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_5;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_8_OR_NEWER
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
